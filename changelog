@@ -1,0 +1,34 @@
+##################################################################################################
+#
+# ********************** C H A N G E L O G
+#
+##################################################################################################
+#
+# Versao 1.1
+#
+# * Implementacao do Changelog
+# * Inicio do versionamento do script
+# * Ajustado instrucoes de uso
+# * Ajustado mensagens de ajuda durante o script
+# * Alterado o dump MySQL para backup completo - anteriormente, o CDR nao era salvo
+# * Removido caracteres especiais das instrucoes
+# * Corrigido a identacao do codigo
+#
+#          Contribuicoes: Anderson Freitas | Data: 12 Dez 2016
+##################################################################################################
+#
+# Versao 1.2
+#
+# * Implentado as opcoes -a, -v, -r, -h e -bkp
+# * Adicionado variavel para marcar a versao do script (bkp_version)
+# * Alterado forma de execucao - Se executado sem parametro, exibe opcoes
+# * Corrigido bug de identacao dos processos que usam for in
+# * Removido ($patch_cd) e utilizado (cd) diretamente para acessar um diretorio
+# * Corrigido funcionalidades -h e -bkp
+# * Corrigido funcao para rotatividade de arquivos (faltava um hifen a frente do numero)
+# * Feito testes de backup e confirmado o funcionamento
+# * Feito testes de rotatividade e confirmado o funcionamento 
+# * Alterado parametro -r com as instrucoes da crontab
+#
+#          Contribuicoes: Anderson Freitas | Data 13 Dez 2016
+##################################################################################################
